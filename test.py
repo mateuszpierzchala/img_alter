@@ -14,4 +14,3 @@ footprint = np.array([[0,1,0],
 
 tabMean=ndimage.generic_filter(tab, np.mean,
                        footprint = footprint)
-        
